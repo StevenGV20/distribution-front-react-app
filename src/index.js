@@ -34,7 +34,7 @@ root.render(
     {/* <RouterProvider router={router} />     buscarCadena(listaModulos, route.path)*/}
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <BrowserRouter basename="/masterLogic/">
+        <BrowserRouter basename="/">
           <Routes>
             {routesPages.map((route) => {
               if (/* buscarCadena(listaModulos, route.path) */ true) {
